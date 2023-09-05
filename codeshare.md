@@ -1,3 +1,8 @@
+
+# Watson Machine Learning
+
+1. pip install ibm-watson-machine-learning
+
 gradio ansible
 ```py
 import gradio as gr
