@@ -1,7 +1,7 @@
 # IBM Fixcat vs ShopZ PTF Order Analysis Report
 
 **Report Generated:** 2026-02-15  
-**ShopZ Order Number:** B8579382  
+**ShopZ Order Number:** B85xxxxx  
 **Analysis Date:** January 30, 2026  
 **Zones Analyzed:** MVSD100, MVST100
 
@@ -9,7 +9,7 @@
 
 ## Executive Summary
 
-This analysis compares the IBM Fixcat HOLDDATA report (missing fixes) against ShopZ PTF order B8579382 to identify coverage gaps and ensure all required PTFs are included.
+This analysis compares the IBM Fixcat HOLDDATA report (missing fixes) against ShopZ PTF order B85xxxx to identify coverage gaps and ensure all required PTFs are included.
 
 ### Key Findings:
 - **Total Required PTFs (Fixcat):** 38 unique PTFs across both zones
@@ -23,7 +23,7 @@ This analysis compares the IBM Fixcat HOLDDATA report (missing fixes) against Sh
 
 ## 1. Missing PTFs - CRITICAL ATTENTION REQUIRED
 
-The following PTFs are identified in the Fixcat report as required but are **NOT included** in ShopZ order B8579382:
+The following PTFs are identified in the Fixcat report as required but are **NOT included** in ShopZ order B888xxxx:
 
 | PTF ID | FMID | APAR | Status | RECEIVED | Fix Category | Priority |
 |--------|------|------|--------|----------|--------------|----------|
@@ -211,7 +211,7 @@ The following PTFs are included in the ShopZ order but were **NOT identified** i
 
 ## Conclusion
 
-ShopZ order B8579382 provides **52.6% coverage** of the required PTFs identified in the Fixcat HOLDDATA report. While IBM.Coexistence.z/OS.3.1 fixes are fully covered, there are **critical gaps** in:
+ShopZ order B85xxxx provides **52.6% coverage** of the required PTFs identified in the Fixcat HOLDDATA report. While IBM.Coexistence.z/OS.3.1 fixes are fully covered, there are **critical gaps** in:
 
 - **HealthChecker functionality** (83.3% missing)
 - **Semeru Java 17 support** (100% missing)
